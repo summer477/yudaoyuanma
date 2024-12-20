@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.social.SocialClientServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.155 s - in cn.iocoder.yudao.module.system.service.social.SocialClientServiceImplTest

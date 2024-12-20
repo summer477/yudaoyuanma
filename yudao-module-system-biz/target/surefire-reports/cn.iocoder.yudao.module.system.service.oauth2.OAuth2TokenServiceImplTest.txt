@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.oauth2.OAuth2TokenServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.039 s - in cn.iocoder.yudao.module.system.service.oauth2.OAuth2TokenServiceImplTest

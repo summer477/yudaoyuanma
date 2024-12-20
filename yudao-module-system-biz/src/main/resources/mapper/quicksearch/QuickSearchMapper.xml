@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.iocoder.yudao.module.system.dal.mysql.quicksearch.QuickSearchMapper">
+    <select id="selectPage" resultType="cn.iocoder.yudao.module.system.dal.dataobject.quicksearch.QuickSearchDO" parameterType="cn.iocoder.yudao.module.system.controller.admin.quicksearch.vo.QuickSearchPageReqVO">
+        SELECT *
+        FROM system_quick_search
+        WHERE deleted = 0
+          AND create_time BETWEEN #{startTime} AND #{endTime}
+        ORDER BY is_top ASC, ${orderBy} ${sortOrder}
+    </select>
+    <update id="updateTopStatus">
+        UPDATE system_quick_search
+        SET is_top = #{isTop}
+        WHERE id = #{id};
+    </update>
+    <update id="updateQuickSearchWord">
+        UPDATE system_quick_search
+        SET
+            keyword = #{keyword},
+            word_id = #{wordId},
+            rank_id = #{rankId},
+            clicks = #{clicks},
+            updater = #{updater},
+            update_time = NOW(),
+            deleted = #{deleted},
+            tenant_id = #{tenantId}
+        WHERE id = #{id}
+    </update>
+
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for yudao-module-system" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/Java/apache-maven-3.6.3/repository/org/springframework/boot/spring-boot-configuration-processor/2.7.18/spring-boot-configuration-processor-2.7.18.jar" />
+          <entry name="D:/Java/apache-maven-3.6.3/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="D:/Java/apache-maven-3.6.3/repository/org/mapstruct/mapstruct-processor/1.6.2/mapstruct-processor-1.6.2.jar" />
+          <entry name="D:/Java/apache-maven-3.6.3/repository/org/mapstruct/mapstruct/1.6.2/mapstruct-1.6.2.jar" />
+        </processorPath>
+        <module name="yudao-module-system-api" />
+        <module name="yudao-module-system-biz" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

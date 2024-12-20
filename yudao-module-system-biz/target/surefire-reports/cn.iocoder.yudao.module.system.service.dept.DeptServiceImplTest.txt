@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.dept.DeptServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.556 s - in cn.iocoder.yudao.module.system.service.dept.DeptServiceImplTest

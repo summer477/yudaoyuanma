@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.sms.SmsChannelServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.214 s - in cn.iocoder.yudao.module.system.service.sms.SmsChannelServiceTest

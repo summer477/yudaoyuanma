@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.auth.AdminAuthServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.4 s - in cn.iocoder.yudao.module.system.service.auth.AdminAuthServiceImplTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.dict.DictTypeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.671 s - in cn.iocoder.yudao.module.system.service.dict.DictTypeServiceImplTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.iocoder.yudao.module.system.service.sms.SmsSendServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.44 s - in cn.iocoder.yudao.module.system.service.sms.SmsSendServiceImplTest
